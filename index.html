@@ -3,174 +3,467 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>iOS Games</title>
+  
+  <!-- Primary Meta Tags -->
+  <title>Top iOS Games 2024 - Best Mobile Games for iPhone & iPad | Free Download</title>
+  <meta name="title" content="Top iOS Games 2024 - Best Mobile Games for iPhone & iPad | Free Download">
+  <meta name="description" content="Discover the best iOS games of 2024! Play addictive puzzle games, arcade adventures, and brain training games. Download free mobile games for iPhone and iPad including Number Drop Galaxy, Cosmic Ball Maze, and more.">
+  <meta name="keywords" content="iOS games, iPhone games, iPad games, mobile games, puzzle games, arcade games, brain training, free games, app store games, 2024 games">
+  <meta name="author" content="Top iOS Games">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://top-ios-games.github.io/">
+  <meta property="og:title" content="Top iOS Games 2024 - Best Mobile Games for iPhone & iPad">
+  <meta property="og:description" content="Discover the best iOS games of 2024! Play addictive puzzle games, arcade adventures, and brain training games. Download free mobile games for iPhone and iPad.">
+  <meta property="og:site_name" content="Top iOS Games">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:url" content="https://top-ios-games.github.io/">
+  <meta property="twitter:title" content="Top iOS Games 2024 - Best Mobile Games for iPhone & iPad">
+  <meta property="twitter:description" content="Discover the best iOS games of 2024! Play addictive puzzle games, arcade adventures, and brain training games."
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://top-ios-games.github.io/">
+  
+
+  
+  <!-- Preconnect to external domains -->
+  <link rel="preconnect" href="https://apps.apple.com">
+  <link rel="preconnect" href="https://docs.google.com">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Top iOS Games",
+    "url": "https://top-ios-games.github.io/",
+    "description": "Discover the best iOS games of 2024! Play addictive puzzle games, arcade adventures, and brain training games.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Top iOS Games"
+    },
+    
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Top iOS Games 2024",
+    "description": "Collection of the best iOS games available on the App Store",
+    "itemListElement": [
+      {
+        "@type": "SoftwareApplication",
+        "position": 1,
+        "name": "Number Drop Galaxy",
+        "description": "Drop numbers into columns and watch them merge! Start with 2s and 4s, combine matching numbers to create bigger ones.",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "iOS",
+        "url": "https://apps.apple.com/us/app/number-drop-galaxy/id6747277744",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "position": 2,
+        "name": "Cosmic Ball Maze",
+        "description": "Navigate through the cosmic void in this challenging physics-based maze adventure!",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "iOS",
+        "url": "https://apps.apple.com/us/app/cosmic-ball-maze/id6746049482",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "position": 3,
+        "name": "Luminary Orbital Shift",
+        "description": "A fast-paced arcade challenge where players match incoming colored orbs with rotating docking stations.",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "iOS",
+        "url": "https://apps.apple.com/us/app/luminary-orbital-shift/id6745904434",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    ]
+  }
+  </script>
+  
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
       margin: 0;
       padding: 20px;
+      line-height: 1.6;
+      background-color: #f8f9fa;
     }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
     .title {
       text-align: center;
       color: #226e93;
-      font-size: 34px;
-      margin-bottom: 30px;
+      font-size: clamp(28px, 5vw, 42px);
+      margin-bottom: 20px;
+      font-weight: 700;
     }
-    .game-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-    .game {
-      width: 300px;
-      margin-bottom: 30px;
-    }
-    .game a {
-      text-decoration: none;
-      display: block;
-      color: #333;
-    }
-    .game img {
-      width: 100%;
-      border-radius: 8px;
-    }
-    .game-title {
+    
+    .subtitle {
+      text-align: center;
+      color: #666;
       font-size: 18px;
-      font-weight: bold;
-      margin-top: 10px;
+      margin-bottom: 40px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    .game-description {
-      font-size: 14px;
-      margin-top: 5px;
+    
+    .game-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
     }
+    
+         .game {
+       position: relative;
+       border-radius: 12px;
+       overflow: hidden;
+       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+       transition: transform 0.3s ease, box-shadow 0.3s ease;
+       height: 250px;
+     }
+     
+     .game:hover {
+       transform: translateY(-5px);
+       box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+     }
+     
+     .game a {
+       text-decoration: none;
+       display: block;
+       color: white;
+       position: relative;
+       width: 100%;
+       height: 100%;
+     }
+     
+     .game img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: 1;
+     }
+     
+     .game-overlay {
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       background: rgba(0, 0, 0, 0.6);
+       z-index: 2;
+     }
+     
+     .game-content {
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       padding: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       z-index: 3;
+     }
+     
+     .game-title {
+       font-size: 22px;
+       font-weight: 700;
+       margin-bottom: 15px;
+       color: #4fc3f7;
+       text-align: center;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+       line-height: 1.2;
+     }
+     
+     .game-description {
+       font-size: 15px;
+       font-weight: 500;
+       color: rgba(255, 255, 255, 0.95);
+       line-height: 1.5;
+       display: -webkit-box;
+       -webkit-line-clamp: 4;
+       -webkit-box-orient: vertical;
+       overflow: hidden;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+       letter-spacing: 0.3px;
+     }
+    
+    .cta-section {
+      text-align: center;
+      margin: 60px 0 40px 0;
+      padding: 40px;
+      background: linear-gradient(135deg, #226e93, #4a90b8);
+      border-radius: 12px;
+      color: white;
+    }
+    
+    .cta-title {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    
+    .cta-description {
+      font-size: 16px;
+      margin-bottom: 25px;
+      opacity: 0.9;
+    }
+    
     .form-container {
       margin-top: 40px;
     }
+    
+    .form-title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 700;
+      color: #226e93;
+      margin-bottom: 20px;
+    }
+    
     iframe {
       width: 100%;
       height: 928px;
       border: none;
+      border-radius: 8px;
+    }
+    
+    /* Accessibility improvements */
+    @media (prefers-reduced-motion: reduce) {
+      .game {
+        transition: none;
+      }
+      .game:hover {
+        transform: none;
+      }
+    }
+    
+    /* Mobile optimization */
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+        margin: 10px;
+      }
+      
+      .game-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      
+      .cta-section {
+        padding: 30px 20px;
+      }
+      
+      .cta-title {
+        font-size: 24px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1 class="title">Top iOS Games</h1>
+  <div class="container">
+    <header>
+      <h1 class="title">Top iOS Games 2024</h1>
+      <p class="subtitle">Discover the best mobile games for iPhone and iPad. From puzzle adventures to arcade classics, find your next gaming obsession!</p>
+    </header>
     
-  <div class="game-container">
-    
-    <div class="game">
-      <a href="https://apps.apple.com/us/app/number-drop-galaxy/id6747277744" target="_blank">
-        <img src="images/number-drop.png">
-        <div class="game-title">Number Drop Galaxy</div>
-        <div class="game-description">Drop numbers into columns and watch them merge! Start with 2s and 4s, combine matching numbers to create bigger ones. Reach 16, 64, 256, or even 1024! Master the cosmic cascade as numbers fall and fuse together. </div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/us/app/cosmic-ball-maze/id6746049482" target="_blank">
-        <img src="images/cosmic-ball-maze.png">
-        <div class="game-title">Cosmic Ball Maze</div>
-        <div class="game-description">Navigate through the cosmic void in this challenging physics-based maze adventure! Precisely control a special gravity rod to guide your metallic sphere across treacherous space platforms. Avoid deadly black holes that will pull you into oblivion, overcome increasing gravity challenges, and reach the shimmering stargates to advance through levels</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/us/app/luminary-orbital-shift/id6745904434" target="_blank">
-        <img src="images/orbital-shift.png">
-        <div class="game-title">Luminary Orbital Shift</div>
-        <div class="game-description">A fast-paced arcade challenge where players match incoming colored orbs with rotating docking stations. Align colors correctly before orbs reach the central core to score points. As your score climbs, the challenge intensifies with faster orbs and tighter timing. Test your reflexes and color-matching skills in this mesmerizing cosmic puzzle experience perfect for quick gameplay sessions!</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/us/app/super-flappy-rocket/id6744752328" target="_blank">
-        <img src="images/flappy-rocket.png">
-        <div class="game-title">Super Flappy Rocket</div>
-        <div class="game-description">Pilot your spacecraft through a cosmic obstacle course in Flappy Rocket, the addictive space-themed twist on classic arcade gameplay! Can you master both flying styles to become the galaxy's best pilot? Choose your preferred gameplay mode and blast off into endless fun! Download FlappyRocket now!
+    <main>
+      <section class="game-container" role="main" aria-label="Featured iOS Games">
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/us/app/number-drop-galaxy/id6747277744" target="_blank" rel="noopener" aria-label="Download Number Drop Galaxy from App Store">
+            <img src="images/number-drop.png" alt="Number Drop Galaxy - Puzzle game screenshot showing number merging gameplay" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Number Drop Galaxy</h2>
+              <p class="game-description" itemprop="description">Drop numbers into columns and watch them merge! Start with 2s and 4s, combine matching numbers to create bigger ones. Reach 16, 64, 256, or even 1024! Master the cosmic cascade as numbers fall and fuse together.</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/us/app/cosmic-ball-maze/id6746049482" target="_blank" rel="noopener" aria-label="Download Cosmic Ball Maze from App Store">
+            <img src="images/cosmic-ball-maze.png" alt="Cosmic Ball Maze - Physics-based space maze game with gravity mechanics" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Cosmic Ball Maze</h2>
+              <p class="game-description" itemprop="description">Navigate through the cosmic void in this challenging physics-based maze adventure! Precisely control a special gravity rod to guide your metallic sphere across treacherous space platforms. Avoid deadly black holes that will pull you into oblivion, overcome increasing gravity challenges, and reach the shimmering stargates to advance through levels</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/us/app/luminary-orbital-shift/id6745904434" target="_blank" rel="noopener" aria-label="Download Luminary Orbital Shift from App Store">
+            <img src="images/orbital-shift.png" alt="Luminary Orbital Shift - Fast-paced color matching arcade game" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Luminary Orbital Shift</h2>
+              <p class="game-description" itemprop="description">A fast-paced arcade challenge where players match incoming colored orbs with rotating docking stations. Align colors correctly before orbs reach the central core to score points. As your score climbs, the challenge intensifies with faster orbs and tighter timing. Test your reflexes and color-matching skills in this mesmerizing cosmic puzzle experience perfect for quick gameplay sessions!</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/us/app/super-flappy-rocket/id6744752328" target="_blank" rel="noopener" aria-label="Download Super Flappy Rocket from App Store">
+            <img src="images/flappy-rocket.png" alt="Super Flappy Rocket - Space-themed arcade flying game" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Super Flappy Rocket</h2>
+              <p class="game-description" itemprop="description">Pilot your spacecraft through a cosmic obstacle course in Flappy Rocket, the addictive space-themed twist on classic arcade gameplay! Can you master both flying styles to become the galaxy's best pilot? Choose your preferred gameplay mode and blast off into endless fun! Download FlappyRocket now!</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/star-fall-hero/id6745329597" target="_blank" rel="noopener" aria-label="Download Star Fall Hero from App Store">
+            <img src="images/star-fall-hero.png" alt="Star Fall Hero - Endless falling game with obstacle dodging" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Star Fall Hero</h2>
+              <p class="game-description" itemprop="description">Fall through a vibrant starscape, dodging increasingly clever obstacles while collecting dazzling stars. Each level introduces faster and smarter enemies - from spinning shapes to homing triangles that hunt you down! Master the intuitive controls as you weave through the cosmos, pushing your reflexes to the limit. With beautiful particle effects, satisfying progression, and escalating challenges, your cosmic journey awaits! How many stars can you collect before your stellar adventure ends?</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/mind-match-mania/id6745031027" target="_blank" rel="noopener" aria-label="Download Mind Match Mania from App Store">
+            <img src="images/mind-match-mania.png" alt="Mind Match Mania - Memory puzzle game with emoji matching" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Mind Match Mania</h2>
+              <p class="game-description" itemprop="description">Test your memory in this addictive puzzle adventure! Match pairs of emojis across multiple fun categories including animals, vehicles, and flags. Each level adds more challenging combinations while the difficulty steadily increases. With colorful graphics and simple gameplay, Mind Match Mania keeps your brain sharp as you progress through infinite levels. How many matches can you remember before your mind gets mixed up?</p>
+            </div>
+          </a>
+        </article>
 
-</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/star-fall-hero/id6745329597" target="_blank">
-        <img src="images/star-fall-hero.png">
-        <div class="game-title">Star Fall Hero</div>
-        <div class="game-description">Fall through a vibrant starscape, dodging increasingly clever obstacles while collecting dazzling stars. Each level introduces faster and smarter enemies - from spinning shapes to homing triangles that hunt you down! Master the intuitive controls as you weave through the cosmos, pushing your reflexes to the limit. With beautiful particle effects, satisfying progression, and escalating challenges, your cosmic journey awaits! How many stars can you collect before your stellar adventure ends?</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/mind-match-mania/id6745031027" target="_blank">
-        <img src="images/mind-match-mania.png">
-        <div class="game-title">Mind Match Mania</div>
-        <div class="game-description">Test your memory in this addictive puzzle adventure! Match pairs of emojis across multiple fun categories including animals, vehicles, and flags. Each level adds more challenging combinations while the difficulty steadily increases. With colorful graphics and simple gameplay, Mind Match Mania keeps your brain sharp as you progress through infinite levels. How many matches can you remember before your mind gets mixed up?</div>
-      </a>
-    </div>
-
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/color-fall-pulse/id6745076490" target="_blank">
-        <img src="images/color-fall.png">
-        <div class="game-title">Color Fall Pulse</div>
-        <div class="game-description">Color Fall Pulse is an addictive rhythm game where falling blocks match colored buttons. Tap when blocks reach the green zone for a perfect hit! Test your reflexes as the pace quickens with every successful match. Simple to learn, challenging to master. How high can your score go?</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/math-match-adventure/id6745712371?l=en-GB" target="_blank">
-        <img src="images/math-match-adventure.png">
-        <div class="game-title">Math Match Adventure</div>
-        <div class="game-description">Math Match Adventure combines memory skills with math practice in an engaging match game. Flip cards to find matching expressions and answers across addition, subtraction, multiplication, and division.
-
-Progress through increasingly challenging levels while improving both memory and math fluency. </div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="game-container">
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/super-number-crush/id6744840049" target="_blank">
-        <img src="images/super-number-crush.png">
-        <div class="game-title">Super Number Crush</div>
-        <div class="game-description">NUMBER CRUSH: Match & combine numbers in this addictive puzzle game with infinite levels! Use addition, subtraction, multiplication & division to reach target values. Build combos for higher scores! Perfect brain training for math lovers of all ages.</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/super-sky-drifter/id6744826832" target="_blank">
-        <img src="images/super-sky-drifter.png">
-        <div class="game-title">Super Sky Drifter</div>
-        <div class="game-description">Guide your hot air balloon through endless skies! Collect stars, dodge lightning storms and avoid birds in this addictive adventure. Tilt your device or tap to navigate, use boosts strategically to stay aloft. How high can you soar before gravity claims you?</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/cometrider/id6744821811" target="_blank">
-        <img src="images/comet-rider.png">
-        <div class="game-title">Comet Rider</div>
-        <div class="game-description">Control your rocket as you jump between platforms in this fast-paced space adventure. Dodge asteroids, time your boosts, and see how high you can climb. Simple controls, beautiful space visuals, and addictive gameplay that's easy to learn but challenging to master.</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/x-o-shift/id6744728662" target="_blank">
-        <img src="images/xo-shift.png">
-        <div class="game-title">X-O Shift</div>
-        <div class="game-description">Tactical Tic-Tac-Toe reinvents the classic game with a strategic twist! Play on a 5×5 grid where victory depends not just on placing your X or O, but on cleverly positioning the 3×3 win zone. On your turn, either place your mark or shift the victory zone to create winning patterns or disrupt your opponent's strategy.</div>
-      </a>
-    </div>
-    
-    <div class="game">
-      <a href="https://apps.apple.com/ru/app/phase-shift-dodger/id6744686480" target="_blank">
-        <img src="images/phase-shift-dodger.png">
-        <div class="game-title">Phase Shift Dodger</div>
-        <div class="game-description">Switch between phases to match obstacles in this fast-paced arcade game! Tap to toggle between cyan and pink as you dodge through an endless stream of color-coded barriers. Collect shields for protection and multipliers to boost your score. Simple one-touch controls with challenging gameplay that tests your reflexes.</div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="form-container">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHo8-SWXy3-GYeIeD__gQUnSDTn941GOqcrKvZFC_xBlu3Eg/viewform?embedded=true"></iframe>
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/color-fall-pulse/id6745076490" target="_blank" rel="noopener" aria-label="Download Color Fall Pulse from App Store">
+            <img src="images/color-fall.png" alt="Color Fall Pulse - Rhythm-based color matching game" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Color Fall Pulse</h2>
+              <p class="game-description" itemprop="description">Color Fall Pulse is an addictive rhythm game where falling blocks match colored buttons. Tap when blocks reach the green zone for a perfect hit! Test your reflexes as the pace quickens with every successful match. Simple to learn, challenging to master. How high can your score go?</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/math-match-adventure/id6745712371?l=en-GB" target="_blank" rel="noopener" aria-label="Download Math Match Adventure from App Store">
+            <img src="images/math-match-adventure.png" alt="Math Match Adventure - Educational memory game combining math and matching" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Math Match Adventure</h2>
+              <p class="game-description" itemprop="description">Math Match Adventure combines memory skills with math practice in an engaging match game. Flip cards to find matching expressions and answers across addition, subtraction, multiplication, and division. Progress through increasingly challenging levels while improving both memory and math fluency.</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/super-number-crush/id6744840049" target="_blank" rel="noopener" aria-label="Download Super Number Crush from App Store">
+            <img src="images/super-number-crush.png" alt="Super Number Crush - Math puzzle game with number combinations" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Super Number Crush</h2>
+              <p class="game-description" itemprop="description">NUMBER CRUSH: Match & combine numbers in this addictive puzzle game with infinite levels! Use addition, subtraction, multiplication & division to reach target values. Build combos for higher scores! Perfect brain training for math lovers of all ages.</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/super-sky-drifter/id6744826832" target="_blank" rel="noopener" aria-label="Download Super Sky Drifter from App Store">
+            <img src="images/super-sky-drifter.png" alt="Super Sky Drifter - Hot air balloon adventure game" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Super Sky Drifter</h2>
+              <p class="game-description" itemprop="description">Guide your hot air balloon through endless skies! Collect stars, dodge lightning storms and avoid birds in this addictive adventure. Tilt your device or tap to navigate, use boosts strategically to stay aloft. How high can you soar before gravity claims you?</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/cometrider/id6744821811" target="_blank" rel="noopener" aria-label="Download Comet Rider from App Store">
+            <img src="images/comet-rider.png" alt="Comet Rider - Space platform jumping adventure game" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Comet Rider</h2>
+              <p class="game-description" itemprop="description">Control your rocket as you jump between platforms in this fast-paced space adventure. Dodge asteroids, time your boosts, and see how high you can climb. Simple controls, beautiful space visuals, and addictive gameplay that's easy to learn but challenging to master.</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/x-o-shift/id6744728662" target="_blank" rel="noopener" aria-label="Download X-O Shift from App Store">
+            <img src="images/xo-shift.png" alt="X-O Shift - Strategic tic-tac-toe game with shifting win zones" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">X-O Shift</h2>
+              <p class="game-description" itemprop="description">Tactical Tic-Tac-Toe reinvents the classic game with a strategic twist! Play on a 5×5 grid where victory depends not just on placing your X or O, but on cleverly positioning the 3×3 win zone. On your turn, either place your mark or shift the victory zone to create winning patterns or disrupt your opponent's strategy.</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="game" itemscope itemtype="https://schema.org/SoftwareApplication">
+          <a href="https://apps.apple.com/ru/app/phase-shift-dodger/id6744686480" target="_blank" rel="noopener" aria-label="Download Phase Shift Dodger from App Store">
+            <img src="images/phase-shift-dodger.png" alt="Phase Shift Dodger - Color-switching arcade dodge game" loading="lazy" itemprop="image">
+            <div class="game-overlay"></div>
+            <div class="game-content">
+              <h2 class="game-title" itemprop="name">Phase Shift Dodger</h2>
+              <p class="game-description" itemprop="description">Switch between phases to match obstacles in this fast-paced arcade game! Tap to toggle between cyan and pink as you dodge through an endless stream of color-coded barriers. Collect shields for protection and multipliers to boost your score. Simple one-touch controls with challenging gameplay that tests your reflexes.</p>
+            </div>
+          </a>
+        </article>
+      </section>
+      
+      <section class="cta-section">
+        <h2 class="cta-title">Love These Games?</h2>
+        <p class="cta-description">Help us discover more amazing iOS games by sharing your favorites and suggestions!</p>
+      </section>
+      
+      <section class="form-container">
+        <h2 class="form-title">Suggest Your Favorite iOS Game</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHo8-SWXy3-GYeIeD__gQUnSDTn941GOqcrKvZFC_xBlu3Eg/viewform?embedded=true" 
+                title="iOS Game Suggestion Form" 
+                aria-label="Form to suggest new iOS games for our collection">
+        </iframe>
+      </section>
+    </main>
   </div>
 </body>
 </html>
